@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <%- include('partials/header') %>
+
+  <body>
+  	<div class="header">
+	     <div class="container">
+	        <div class="row">
+	           <div class="col-md-5">
+	              <!-- Logo -->
+	              <div class="logo">
+	                 <h1><a href="/">Home Controller</a></h1>
+	              </div>
+	           </div>
+	        </div>
+	     </div>
+	</div>
+
+  <div class="page-content">
+    <div class="row">
+      <!-- Main Menu -->
+		  <div class="col-md-2">
+		  	<div class="sidebar content-box" style="display: block;">
+          <ul class="nav">
+              <li><a href="/"><i class="glyphicon glyphicon-home"></i> Home</a></li>
+              <li class="current"><a href="/router"><i class="glyphicon glyphicon-calendar"></i> Router</a></li>
+              <li><a href="/switchap"><i class="glyphicon glyphicon-stats"></i>  Switches/APs</a></li>
+              <li><a href="/lights"><i class="glyphicon glyphicon-list"></i> Tables</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Main Menu-->
+		  <div class="col-md-10">
+		  	<div class="row">
+		  		<!--<div class="col-md-6">-->
+		  			<div class="content-box-large">
+		  				<div class="panel-heading">
+							<div class="panel-title">Router</div>
+							
+							<div class="panel-options">
+								<a id="getConfig" href="#" data-rel="collapse"><i class="glyphicon glyphicon-refresh"></i></a>
+								<a href="#" data-rel="reload"><i class="glyphicon glyphicon-cog"></i></a>
+							</div>
+						</div>
+		  				<div class="panel-body">
+				  			Lorem Ipsum
+		  				</div>
+		  			</div>
+		  		<!--</div>-->
+		  	</div>
+		  </div>
+		</div>
+  </div>
+
+  <%- include('partials/footer') %>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/router.js"></script>
+  </body>
+</html>
